@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(243, 134, 134), skyblue);
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 80px;
+    font-family: 'Bangers', cursive;
+    /* font-family: 'Pacifico', cursive; */
+    /* font-family: 'Poiret One', cursive; */
+    color: white;
+}
+
+.drum {
+    font-size: 1.5rem;
+    height: 90px;
+    width: 10%;
+    margin: 1rem;
+    border: 2px solid rgb(221, 223, 222);
+    border-radius: 10px;    
+    text-transform: uppercase;
+    background-image: linear-gradient(to left, rgb(235, 126, 111), skyblue);
+    color: white;
+    font-family: 'Bangers', cursive;
+
+}
+
+.pressed {
+    border: 2px solid black;
+    opacity: 0.5;
+}
+
+footer {
+    margin: 8rem;
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
